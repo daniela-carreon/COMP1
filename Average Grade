@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	float fil, math, eng, sci, his, ave;
+	
+	cout<<"What is your grade in Filipino? ";
+	cin>>fil;
+	cout<<"What is your grade in Mathematics? ";
+	cin>>math;
+	cout<<"What is your grade in English? ";
+	cin>>eng;
+	cout<<"What is your grade in Science? ";
+	cin>>sci;
+	cout<<"What is your grade in History? ";
+	cin>>his;
+	
+	
+	ave=(fil+math+eng+sci+his)/5;
+	
+	cout<<"Your average is "<<ave;
+	
+	return 0;
+	
+}
