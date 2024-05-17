@@ -1,0 +1,60 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() 
+{
+
+    string ans1, ans2, ans3, ans4, ans5;
+    float score;
+    
+    score=0;
+    
+    cout<<"What is 1+1? ";
+    cin>>ans1;
+    
+    if (ans1=="2"){
+        score=score+1;
+    }
+    else{
+         score=score+0;
+    }
+    
+	cout<<"What is 5+1? ";
+  	cin>>ans2;
+  	 if (ans2=="6"){
+        score=score+1;
+    }
+    else{
+         score=score+0;
+    }
+    
+    cout<<"What is 2+2? ";
+  	cin>>ans3;
+  	 if (ans3=="4"){
+        score=score+1;
+    }
+    else{
+         score=score+0;
+    }
+    
+    cout<<"What is 10+10? ";
+  	cin>>ans4;
+  	 if (ans4=="20"){
+        score=score+1;
+    }
+    else{
+         score=score+0;
+    }
+    
+    cout<<"What is 6+10? ";
+  	cin>>ans5;
+  	 if (ans5=="16"){
+        score=score+1;
+    }
+    else{
+         score=score+0;
+    }
+    
+    cout<<"Your final score is "<<score<<". Thank you for participating.";
+    return 0;
+}
