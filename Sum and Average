@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//Print out numbers and calculate
+	
+	float num1, num2, sum, average;
+	
+	cout<<"First number is: ";
+	cin>>num1;
+	
+	cout<<"Second number is: ";
+	cin>>num2;
+	
+	sum=num1+num2;
+	average=sum/2;
+	
+	cout<<"The sum is: "<<sum;
+	cout<<"\n The Average is: "<<average;
+	
+	return 0;
+	
+}
